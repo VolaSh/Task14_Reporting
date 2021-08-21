@@ -1,0 +1,17 @@
+{
+    "cucumberautocomplete.steps": ["test/step_definitions/**/*.js"],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+  
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "[feature]": {
+      "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+    }
+  }
+  

@@ -1,0 +1,11 @@
+*.db
+*.log
+/target
+/bin
+node_modules
+reports
+mochawesome-report
+.nyc_output
+coverage
+log.*
+junit-report.xml
