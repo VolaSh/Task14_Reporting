@@ -1,0 +1,32 @@
+{
+  "name": "task11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node ./test/utils/delete_reports.js",
+    "test": "protractor ./test/config/protractor_config.js",
+    "postinstall": "webdriver-manager update --versions.chrome 92.0.4515.107"
+  },
+  "keywords": [
+    "BDD"
+  ],
+  "author": "Volha.Shablyka",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "^5.4.0",
+    "cucumber-junit-convert": "^2.0.0",
+    "cucumber-pretty": "^6.0.0",
+    "fs-extra": "^10.0.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^8.2.2",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
+    "eslint": "^7.31.0"
+  }
+}
